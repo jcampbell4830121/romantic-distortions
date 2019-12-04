@@ -1,0 +1,236 @@
+*, *:after, *:before {
+	box-sizing: border-box;
+}
+@font-face {
+	font-family: Mensch;
+	src: url(../fonts/mensch.ttf);
+}
+@font-face {
+	font-family: Trade;
+	src: url(../fonts/trade-gothic-light.ttf);
+}
+@font-face {
+	font-family: Brown;
+	src: url(../fonts/BrownStd-Light.otf);
+}
+@font-face {
+	font-family: Wild;
+	src: url(../fonts/The-Wild-Things-Script-Bold.otf);
+}
+body {
+	margin: 0 auto;
+}
+
+header {
+	background-color: #e7d350;
+	height: 450px;
+	text-align: center;
+}
+
+h1 {
+	font-family: Mensch;
+	text-align: left;
+}
+
+#logo{
+	position: relative;
+	top: 20px;
+	left: 75px;
+	width: 100%;
+	padding: .5em;
+}
+
+.main-nav {
+	position: absolute;
+	top: 0;
+	right: 75px;
+	padding: 1em 0 0 0;
+}
+.main-nav ul{
+	list-style-type: none;
+}
+
+.paragraph {
+	font-family: Brown;
+	width: 60%;
+	margin: auto;
+	padding: 0px 0px 10px 0px;
+	position: relative;
+	top: 50px;
+	line-height: 1.7em;
+}
+.paragraph h1 {
+	color: #35ceb7;
+	text-align: left;
+	padding: 30px 0px 0px 0px;
+	line-height: 40px;
+	font-size: 2.2em;
+}
+.paragraph img {
+	display: block;
+	padding: 40px 0px 40px 0px;
+	margin: auto;
+}
+.paragraph p {
+	font-size: 1.2em;
+	line-height: 1.7em;
+}
+.paragraph form {
+	float: left;
+}
+#float-graph {
+	font-family: Trade;
+	width: 50%;
+	margin: auto;
+	padding: 50px 0px 10px 0px;
+	position: relative;
+	top: 100px;
+	line-height: 1.7em;
+	float: right;
+}
+.column {
+    float: left;
+    margin: auto;
+    width: 45%;
+}
+.column p {
+	color: #5f8124;
+	padding-left: 50px;
+	font-style: italic;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.img-links {
+	position: relative;
+}
+.img-links ul {
+	list-style: none;
+	text-align: center;
+}
+.img-links li {
+	display: inline-block;
+	padding: 0.5em;
+	text-align: center;
+	line-height: 400px;
+	font-size: 3.5em;
+	color: white;
+	font-family: Chalet;
+}
+.box1, .box2, .box3 {
+	width: 370px;
+	height: 240px;
+	position: relative;
+	top: 20px;
+}
+.box4, .box5, .box6, .box7 {
+	width: 700px;
+	height: 428px;
+	top: 20px;
+	position: relative;
+}
+.box8, .box9, .box10, .box11 {
+	width: 400px;
+	height: 400px;
+	top: 20px;
+	position: relative;
+}
+.box1 {
+	background-image:url(../images/book-1.jpg);
+}
+.box2 {
+	background-image:url(../images/book-2.jpg);
+}
+.box3 {
+	background-image:url(../images/book-3.jpg);
+}
+.box4 {
+	background-image:url(../images/layout-1.jpg);
+}
+.box5 {
+	background-image:url(../images/layout-2.jpg);
+}
+.box6 {
+	background-image:url(../images/layout-3.jpg);
+}
+.box7 {
+	background-image:url(../images/layout-4.jpg);
+}
+.box8 {
+	background-image:url(../images/insta-quote-5.jpg);
+}
+.box9 {
+	background-image:url(../images/Insta-quote-1.jpg);
+}
+.box10 {
+	background-image:url(../images/insta-quote-6.jpg);
+}
+.box11 {
+	background-image:url(../images/insta-quote-2.jpg);
+}
+.attract-links ul {
+	list-style: none;
+	text-align: center;
+}
+.attract-links li {
+	display: inline-block;
+	padding: 1.5em;
+}
+.attract1, .attract2, .attract3, .attract4 {
+	width: 300px;
+	height: 300px;
+	position: relative;
+	top: 150px;
+	background-color: green;
+}
+.attract1 {
+	background-image:url(../photos/hotr-7.jpg);
+}
+.attract2 {
+	background-image:url(../photos/hotr-8.jpg);
+}
+.attract3 {
+	background-image:url(../photos/hotr-9.jpg);
+}
+.attract4 {
+	background-image:url(../photos/hotr-10.jpg);
+}
+.descriptions {
+	position: relative;
+	top: 100px;
+	list-style: none;
+	text-align: center;
+}
+.descriptions li {
+	font-family: sans-serif;
+	padding: 2em 5em 0 5em;
+}
+.line {
+	position: relative;
+	top: 30px;
+    height: 1px;
+    width: 100%;
+    background-color: #75a3a3;
+    margin-bottom: 60px;
+}
+.page-footer {
+	width: 100%;
+	height: 250px;
+	position: relative;
+	top: 100px;
+	background-color: #35ceb7;
+	padding: 20px;
+	clear: both;
+}
+.page-footer p {
+	color: white;
+	font-family: Wild;
+	text-align: center;
+	font-size: 4em;
+	line-height: 1em;
+}
+.page-footer img {
+	margin: 5px;
+}
